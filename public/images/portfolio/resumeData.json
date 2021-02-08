@@ -1,0 +1,167 @@
+{
+  "main": {
+    "name": "Steven Pelliet",
+    "description": "Etudiant de Master II Informatique, à l'Université de Bretagne Occidental",
+    "image": "profile.jpg",
+    "bio": "Etudiant de Master II Informatique en Technologie de l'Information et de l'Ingénierie Logiciel, en alternance au sein de l'entreprise Orange",
+    "loisir": [
+      {
+        "nom_loisir": "Danse Bretonne",
+        "site": "http://www.eostiged.com"
+      },
+      {
+        "nom_loisir": "Lecture",
+        "site": "http://www.eostiged.com"
+      }
+    ],
+    "contact_message": "Feel free to contact me, for more information",
+    "email": "steven@pelliet.fr",
+    "phone": "0670816785",
+    "gitlab": "https://gitlab.com/PellietS",
+    "address": {
+      "street": "5 avenue de tarente",
+      "city": "Brest",
+      "state": "France",
+      "zip": "29200"
+    },
+    "resume_download": "Pelliet_Steven-CV.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/steven-pelliet/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "gitlab",
+        "url": "https://gitlab.com/PellietS",
+        "className": "fa fa-gitlab"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Université de Bretagne Occidental",
+        "degree": "Master Informatique",
+        "site": "http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/master-XB/master-informatique-program-fr_rne_0290346u_prog6845/parcours-technologies-de-l-information-et-ingenierie-du-logiciel-par-alternance-subprogram-3.html",
+        "specialisation": "Technologie de l'Information et de l'Ingénierie Logiciel",
+        "graduated": "2021"
+      },
+      {
+        "school": "IUT de Laval - Université du Mans",
+        "degree": "Licence Professionnel Informatique",
+        "specialisation": "Test Qualité Logiciel",
+        "site": "http://www.univ-lemans.fr/fr/formation/catalogue-des-formations/licence-professionnelle-LICP/sciences-technologies-sante-0004/lp-metiers-de-l-informatique-conception-developpement-et-test-de-logiciels-parcours-test-et-qualite-logiciel-IXUFT3UB.html",
+        "graduated": "2019"
+      },
+      {
+        "school": "IUT de Lannion - Université de Rennes1",
+        "degree": "DUT Informatique",
+        "specialisation": "Genie Logiciel",
+        "site": "https://iut-lannion.univ-rennes1.fr/informatique",
+        "graduated": "2018"
+      }
+    ],
+    "work": [
+      {
+        "company": "Orange - WIN/OINIS",
+        "title": "Assistant de manager (En alternance)",
+        "years": "Septembre 2020 - Août 2021",
+        "projects": [
+          {
+            "id": 0,
+            "description" : "Mise en place de test de bout en bout sur une api et de création d'une chaine d'Intégration Continu",
+            "langages": [{"name":"python"},{"name": "Docker"},{"name": "pytest"},{"name": "python flask lib"},{"name": "python restplus lib"}]
+          },{
+            "id": 1,
+            "description": " Reproduction de test d'intégration d'AngularJS en python",
+            "langages": [{"name":"python"},{"name":"AngularJs"},{"name": "Pytest"}]
+          }
+        ]
+      },
+      {
+        "company": "Orange - OLS/IVA",
+        "title": "Assistant d'ingénieur en développement logiciel (En alternance)",
+        "years": "Septembre 2018 - Août 2019",
+        "projects": [
+          {
+            "id": 0,
+            "description" : "Développement d'un outil de mise-à-jour pour un agent d'automatisation de test",
+            "langages": [{"name":"python"},{"name": "python OpenApi Lib"},{"name": "Docker"},{"name": "Marshmallow"},{"name": "SQLAlchemy"}]
+          },{
+            "id": 1,
+            "description": " Reproduction de test d'intégration d'AngularJS en python",
+            "langages": [{"name":"python"},{"name":"AngularJs"},{"name": "Pytest"}]
+          }
+        ]
+      },
+      {
+        "company": "Orange - OLS/IVA",
+        "title": "Assistant d'ingénieur en développement logiciel (En alternance)",
+        "years": "Septembre 2017 - Août 2018",
+        "projects": [
+          {
+            "id": 0,
+            "description" : "Création d'un automate de test pour application de calcul ",
+            "langages": [{"name":"python"},{"name": "RobotFramework"}]
+          },{
+            "id": 1,
+            "description": "Développement d'une librairie de test pour la gestion de flux vidéo",
+            "langages": [{"name":"python"},{"name": "Gstreamer Python Library"}]
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+          "name":"HTML/CSS",
+          "level":"75%"
+      },
+        {
+          "name":"CMS",
+          "level":"50%"
+        },
+        {
+          "name":"JS, Angular, React, VueJs",
+          "level":"50%"
+        },
+      {
+        "name": "PHP",
+        "level": "50%"
+      },
+      {
+          "name":"Python",
+          "level":"75%"
+      },
+      {
+          "name":"C/Java",
+          "level":"75%"
+      },
+      {
+            "name":"RobotFramework",
+            "level":"50%"
+      },
+      {
+            "name":"PHPUnit/JUnit/Pytest",
+            "level":"50%"
+          },
+          {
+            "name":"Selenium/JMeter/SonarQube",
+            "level":"25%"
+          },
+      {
+            "name":"PostgresSQL/MySQL",
+            "level":"25%"
+          },
+          {
+            "name":"SQLAlchemy/Marshmallow",
+            "level":"25%"
+          },
+          {
+            "name":"MongoDB",
+            "level":"50%"
+          }
+    ]
+  }
+}

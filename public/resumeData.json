@@ -4,7 +4,7 @@
     "description":"Etudiant en M2 à l'UBO et Developpeur Junior chez CGI",
     "image":"profilepic.jpg",
     "bio":"Bonjour,   je m'appelle Axel Murat et je suis actuellement étudiant par alternance à CGI et en 2ème année de Master Informatique TIIL-A (Technologies de l'Information et Ingénierie du Logiciel par Alternance) à l'UBO. Passionné de technologie, je me renseigne régulièrement sur les nouveautés technologiques. Mon objectif actuel est de devenir développeur.  ",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Formulaire de contact",
     "email": "axel.murat@laposte.net",
     "phone": "0606434335",
     "github":"https://github.com/Amulus",
@@ -19,24 +19,9 @@
     "resumedownload":"",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/Amu.Cookie/",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"https://twitter.com/AmuCookie",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/axel-murat-85639595/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"https://www.instagram.com/amucookie/",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
@@ -46,62 +31,68 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Mes principaux domaines de compétence :",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Université de Bretagne Occidental",
+        "degree":"Masters Informatique TIILA Technologies de l'information et ingénierie du logiciel par alternance",
+        "graduated":"En cours",
+        "description":"TIILA Technologies de l'information et ingénierie du logiciel par alternance",
+        "site":"http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/master-XB/master-informatique-program-fr_rne_0290346u_prog6845/parcours-technologies-de-l-information-et-ingenierie-du-logiciel-par-alternance-subprogram-3.html"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Université de Bretagne Occidental",
+        "degree":"Licence Informatique",
+        "graduated":"2018",
+        "description":"Ingénierie Logiciel",
+        "site":"http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/licence-XA/licence-mention-informatique-program-fr_rne_0290346u_prog4028/parcours-ingenierie-informatique-subprogram-3.html"
+      },
+      {
+        "school":"IUT de Lannion (22)",
+        "degree":"DUT informatique",
+        "graduated":"Juin 2016",
+        "description":"Niveau 2ème année",
+        "site":"https://iut-lannion.univ-rennes1.fr/"
+      },
+      {
+        "school":"Lycée vauban",
+        "degree":"Baccalauréat Scientifique",
+        "graduated":"Juin 2013",
+        "description":"option Sciences de l'ingénieur avec spécialité informatique et sciences du numérique au lycée VAUBAN de Brest.",
+        "site":"https://www.lycee-vauban-brest.ac-rennes.fr/"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"CGI",
+        "title":"Developpeur Junior ",
+        "years":"Juin 2020 - Aujourd'hui",
+        "description":"D'abords stagiaire en TMA sur du Java et du pl/sql, puis là je suis alternant et je travaille sur l'ERP sap/abap"
       }
     ],
     "skills":[
       {
         "name":"Python",
-        "level":"60%"
+        "level":"70%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"Java",
+        "level":"80%"
       },
       {
         "name":"ReactJs",
         "level":"50%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name":"MongoDB",
+        "level":"60%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name":"SAP/ABAP",
+        "level":"40%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
+        "name":"C",
         "level":"80%"
       }
     ]
@@ -109,34 +100,10 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Générateur de plan de boîtes",
+        "category":"Developpement WEB",
+        "image":"boite.jfif",
+        "url":"https://uboopenfactory.univ-brest.fr/decoupes/"
       }
     ]
   }

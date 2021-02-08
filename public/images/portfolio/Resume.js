@@ -10,31 +10,44 @@ class Resume extends Component {
     }
     return color;
   }
-  
+
   render() {
 
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
-        return <div key={education.school}><h3>{education.school}</h3>
+        return <div key={education.school}><a href={education.site} target="_blank"> <h3>{education.school}</h3></a>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p>
-        <a href={education.site} target="_blank"> Lien du programme / Site internet</a></div>
+        <p>{education.description}</p></div>
       })
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
+          var project = work.projects.map(function(project){
+              var langage = project.langages.map(function(langage){
+                  return <div key={project.id}> <ul>
+                      <li>{langage.name}</li>
+                  </ul>
+                  </div>
+              })
+
+              return <div key={project.id}> <p>{project.description}</p>
+                  {langage}
+              </div>
+          })
+          return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+              {project}
+
         </div>
       })
 
       var skills = this.props.data.skills.map((skills)=>{
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return (
-          <li key={skills.name}>
-            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
-          </li>
-        )
+          var className = 'bar-expand '+skills.name.toLowerCase();
+          return (
+
+                  <li key={skills.name}>
+                    <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
+                  </li>
+                )
       })
     }
 
@@ -43,7 +56,7 @@ class Resume extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Cursus Universitaire</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -59,7 +72,7 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Cursus Professionnel</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -72,7 +85,7 @@ class Resume extends Component {
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Compétences</span></h1>
          </div>
 
          <div className="nine columns main-col">
