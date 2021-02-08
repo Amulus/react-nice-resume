@@ -1,46 +1,46 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Axel Murat",
+    "description":"Etudiant en M2 à l'UBO et Developpeur Junior chez CGI",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Bonjour,   je m'appelle Axel Murat et je suis actuellement étudiant par alternance à CGI et en 2ème année de Master Informatique TIIL-A (Technologies de l'Information et Ingénierie du Logiciel par Alternance) à l'UBO. Passionné de technologie, je me renseigne régulièrement sur les nouveautés technologiques. Mon objectif actuel est de devenir développeur.  ",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "axel.murat@laposte.net",
+    "phone": "0606434335",
+    "github":"https://github.com/Amulus",
+    "project":"https://github.com/Amulus",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Rue du trois mat",
+      "city":"Brest",
+      "state":"France",
+      "zip": "29200"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://github.com/Amulus",
+    "resumedownload":"",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://www.facebook.com/Amu.Cookie/",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/AmuCookie",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/axel-murat-85639595/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/amucookie/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/Amulus",
         "className":"fa fa-github"
       }
     ]
