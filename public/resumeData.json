@@ -35,16 +35,16 @@
     "education":[
       {
         "school":"Université de Bretagne Occidental",
-        "degree":"Masters Informatique TIILA Technologies de l'information et ingénierie du logiciel par alternance",
+        "degree":"Masters Informatique",
         "graduated":"En cours",
-        "description":"TIILA Technologies de l'information et ingénierie du logiciel par alternance",
+        "description":"parcours TIILA (Technologies de l'information et ingénierie du logiciel par alternance)",
         "site":"http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/master-XB/master-informatique-program-fr_rne_0290346u_prog6845/parcours-technologies-de-l-information-et-ingenierie-du-logiciel-par-alternance-subprogram-3.html"
       },
       {
         "school":"Université de Bretagne Occidental",
         "degree":"Licence Informatique",
         "graduated":"2018",
-        "description":"Ingénierie Logiciel",
+        "description":"Ingénierie Informatique",
         "site":"http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/licence-XA/licence-mention-informatique-program-fr_rne_0290346u_prog4028/parcours-ingenierie-informatique-subprogram-3.html"
       },
       {
