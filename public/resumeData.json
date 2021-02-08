@@ -67,7 +67,7 @@
         "company":"CGI",
         "title":"Developpeur Junior ",
         "years":"Juin 2020 - Aujourd'hui",
-        "description":"D'abords stagiaire en TMA sur du Java et du pl/sql, puis là je suis alternant et je travaille sur l'ERP sap/abap"
+        "description":"D'abords stagiaire en TMA sur du Java et du pl/sql, Je suis actuellement alternant et je travaille en TMA sur l'ERP sap/abap"
       }
     ],
     "skills":[
@@ -104,6 +104,12 @@
         "category":"Developpement WEB",
         "image":"boite.jfif",
         "url":"https://uboopenfactory.univ-brest.fr/decoupes/"
+      },
+      {
+        "title":"Compatibilité 64 joueurs pour un mod de jeu Teeworlds",
+        "category":"C/C++",
+        "image":"zombie.png",
+        "url":"https://github.com/Amulus/teeworlds-zesc/"
       }
     ]
   }
