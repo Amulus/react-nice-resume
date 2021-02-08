@@ -10,7 +10,7 @@
     "github":"https://github.com/Amulus",
     "project":"https://github.com/Amulus",
     "address":{
-      "street":"Rue du trois mat",
+      "street":"16 rue du général de trobriand",
       "city":"Brest",
       "state":"France",
       "zip": "29200"
@@ -31,13 +31,13 @@
     ]
   },
   "resume":{
-    "skillmessage":"Mes principaux domaines de compétence :",
+    "skillmessage":"Mes principaux domaines de compétences :",
     "education":[
       {
         "school":"Université de Bretagne Occidental",
         "degree":"Masters Informatique",
         "graduated":"En cours",
-        "description":"parcours TIILA (Technologies de l'information et ingénierie du logiciel par alternance)",
+        "description":"Parcours TIILA (Technologies de l'information et ingénierie du logiciel par alternance)",
         "site":"http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/master-XB/master-informatique-program-fr_rne_0290346u_prog6845/parcours-technologies-de-l-information-et-ingenierie-du-logiciel-par-alternance-subprogram-3.html"
       },
       {
@@ -58,7 +58,7 @@
         "school":"Lycée vauban",
         "degree":"Baccalauréat Scientifique",
         "graduated":"Juin 2013",
-        "description":"option Sciences de l'ingénieur avec spécialité informatique et sciences du numérique au lycée VAUBAN de Brest.",
+        "description":"Option Sciences de l'ingénieur avec spécialité informatique et sciences du numérique au lycée VAUBAN de Brest.",
         "site":"https://www.lycee-vauban-brest.ac-rennes.fr/"
       }
     ],
